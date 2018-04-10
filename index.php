@@ -1,7 +1,6 @@
 <?php
 
 $data = __DIR__ . '/images';
-$target_file = $data . basename($_FILES['upload']);
 $iterator = new FilesystemIterator($data, FilesystemIterator::SKIP_DOTS);
 $extensions = array('png', 'gif', 'jpg', 'jpeg');
 $errors = [];
