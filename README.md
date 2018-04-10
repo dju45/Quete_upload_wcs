@@ -1,2 +1,2 @@
 # Quete_upload_wcs
-upload de d'images multiple
+upload d'images multiple
